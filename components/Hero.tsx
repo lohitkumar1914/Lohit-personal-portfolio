@@ -82,6 +82,13 @@ const Hero = () => {
                   position="right"
                 />
               </a>
+              <a href="/lohit_CV.pdf" download>
+                <MagicButton
+                  title="Resume"
+                  icon={<FaLocationArrow />}
+                  position="right"
+                />
+              </a>
               <a href="#contact">
                 <MagicButton
                   title="contact me"
