@@ -134,7 +134,7 @@ export const projects = [
     img: "/p4.png",
     iconLists: ["/re.svg", "/CSS.svg", "/js.svg"],
     link: "https://guess-the-word-game-weld.vercel.app/",
-    github: "",
+    github: "https://github.com/lohitkumar1914/Guess-the-word-game",
   },
   {
     id: 4,
