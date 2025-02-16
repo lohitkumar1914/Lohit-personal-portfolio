@@ -129,11 +129,11 @@ export const projects = [
 
   {
     id: 3,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "guess the word game",
+    des: "A word guessing game where players try to guess a word by suggesting letters within a limited number of attempts.",
+    img: "/p4.png",
+    iconLists: ["/re.svg", "/CSS.svg", "/js.svg"],
+    link: "https://guess-the-word-game-weld.vercel.app/",
     github: "",
   },
   {
