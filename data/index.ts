@@ -123,7 +123,7 @@ export const projects = [
     des: "A web application for managing a studio's projects, employees, and clients.",
     img: "/p2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/supabase.svg"],
-    link: "/ui.yoom.com",
+    link: "https://sekharalbum.netlify.app/",
     github: "https://github.com/lohitkumar1914/Sekhar-albums",
   },
 
