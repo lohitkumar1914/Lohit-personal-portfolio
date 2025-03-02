@@ -1,5 +1,4 @@
-import { FaLocationArrow } from "react-icons/fa6";
-
+import { FaEnvelope } from "react-icons/fa6";
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
 
@@ -7,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       <div className="flex flex-col items-center justify-between min-h-screen relative">
-        {/* background grid - fixed at bottom */}
+        {/* Background Grid */}
         <div className="w-full absolute left-0 bottom-0 min-h-96">
           <img
             src="/footer-grid.svg"
@@ -16,31 +15,32 @@ const Footer = () => {
           />
         </div>
 
-        {/* Main content - centered */}
+        {/* Main Content */}
         <div className="flex-1 flex flex-col items-center justify-center z-10">
           <h1 className="heading lg:max-w-[45vw]">
             Let's <span className="text-purple">Connect</span>
           </h1>
           <p className="text-white-200 md:mt-10 my-5 text-center">
-            Reach out to me today and let&apos;s discuss how I can help you.
+            Have a project in mind or want to collaborate? Feel free to reach out.
           </p>
-          <a href="mailto:lohitkumar1914@gmail.com?subject=Hello Lohit&body=Let's connect!"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+          <a
+            href="mailto:lohitkumar1914@gmail.com?subject=Hello Lohit&body=Let's connect!"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <MagicButton
-              title="Let's get in touch"
-              icon={<FaLocationArrow />}
+              title="Send an Email"
+              icon={<FaEnvelope />}
               position="right"
             />
           </a>
         </div>
 
-        {/* Footer bottom section - fixed at bottom */}
+        {/* Footer Bottom */}
         <div className="w-full border-t border-black-300 mt-16 pt-8 pb-4 z-10">
           <div className="container mx-auto px-4 flex md:flex-row flex-col justify-between items-center gap-4">
             <p className="md:text-base text-sm md:font-normal font-light">
-              Copyright © 2030 Lohit Kumar
+              Copyright © {new Date().getFullYear()} Lohit Kumar
             </p>
 
             <div className="flex items-center gap-6">
@@ -54,7 +54,7 @@ const Footer = () => {
                 >
                   <img
                     src={info.img}
-                    alt={${info.id} icon}
+                    alt={`${info.id} icon`}
                     className="w-6 h-6 object-contain"
                   />
                 </a>
