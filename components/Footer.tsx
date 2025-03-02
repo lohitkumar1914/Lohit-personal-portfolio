@@ -21,7 +21,7 @@ const Footer = () => {
           <h1 className="heading lg:max-w-[45vw]">
             Let's <span className="text-purple">Connect</span>
           </h1>
-          </h1>
+          
           <p className="text-white-200 md:mt-10 my-5 text-center">
             Have a project in mind or want to collaborate? Feel free to reach
             out.          </p>
