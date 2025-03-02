@@ -19,12 +19,17 @@ const Footer = () => {
         {/* Main content - centered */}
         <div className="flex-1 flex flex-col items-center justify-center z-10">
           <h1 className="heading lg:max-w-[45vw]">
-            Contact <span className="text-purple">Me</span> 
+            Let's <span className="text-purple">Connect</span>
           </h1>
           <p className="text-white-200 md:mt-10 my-5 text-center">
-            Reach out to me today and let&apos;s discuss how I can help you.
+            Have a project in mind or want to collaborate? Feel free to reach
+            out.
           </p>
-          <a href="mailto:lohitkumar1914@gmail.com">
+          <a
+            href="mailto:lohitkumar1914@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <MagicButton
               title="Let's get in touch"
               icon={<FaLocationArrow />}
@@ -37,7 +42,7 @@ const Footer = () => {
         <div className="w-full border-t border-black-300 mt-16 pt-8 pb-4 z-10">
           <div className="container mx-auto px-4 flex md:flex-row flex-col justify-between items-center gap-4">
             <p className="md:text-base text-sm md:font-normal font-light">
-              Copyright © 2030 Lohit Kumar
+              Copyright © {new Date().getFullYear()} Lohit Kumar
             </p>
 
             <div className="flex items-center gap-6">
@@ -51,7 +56,7 @@ const Footer = () => {
                 >
                   <img
                     src={info.img}
-                    alt={${info.id} icon}
+                    alt={`${info.id} icon`}
                     className="w-6 h-6 object-contain"
                   />
                 </a>
