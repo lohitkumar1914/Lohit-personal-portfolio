@@ -38,7 +38,7 @@ const Footer = () => {
         <div className="w-full border-t border-black-300 mt-16 pt-8 pb-4 z-10">
           <div className="container mx-auto px-4 flex md:flex-row flex-col justify-between items-center gap-4">
             <p className="md:text-base text-sm md:font-normal font-light">
-              Copyright © {new Date().getFullYear()}  Lohit Kumar
+              Copyright © 2025  Lohit Kumar
             </p>
 
             <div className="flex items-center gap-6">
