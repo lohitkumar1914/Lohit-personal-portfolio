@@ -1,4 +1,5 @@
 import { FaLocationArrow } from "react-icons/fa6";
+import React from "react";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
@@ -19,7 +20,7 @@ const Footer = () => {
         {/* Main content - centered */}
         <div className="flex-1 flex flex-col items-center justify-center z-10">
           <h1 className="heading lg:max-w-[45vw]">
-            Let's <span className="text-purple">Connect</span>
+            Lets <span className="text-purple">Connect</span>
           </h1>
           
           <p className="text-white-200 md:mt-10 my-5 text-center">
