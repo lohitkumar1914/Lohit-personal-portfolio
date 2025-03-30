@@ -77,7 +77,7 @@ const Hero = () => {
             <div className="flex justify-center space-x-2 sm:space-x-4">
               <a href="#contact">
                 <MagicButton
-                  title="contact me"
+                  title="Contact me"
                   icon={<FaLocationArrow />}
                   position="right"
                 />
