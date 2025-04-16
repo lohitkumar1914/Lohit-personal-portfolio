@@ -123,8 +123,8 @@ export const projects = [
     des: "A web application for managing a studio's projects, employees, and clients.",
     img: "/p2.png",
     iconLists: ["/tail.svg", "/ts.svg", "/supabase.svg"],
-    link: "/ui.yoom.com",
-    github: "https://github.com/lohitkumar1914/Sekhar-albums",
+    link: "https://lohitworks2.netlify.app/",
+    github: "https://github.com/lohitkumar1914/Studio-Project-Management",
   },
   {
     id: 3,
