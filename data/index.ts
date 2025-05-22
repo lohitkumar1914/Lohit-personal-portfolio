@@ -220,4 +220,5 @@ export const skillsData = [
   "MYSQL",
   "java",
   "Python",
+"DSA in java"
 ] as const;
