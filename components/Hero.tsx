@@ -82,7 +82,7 @@ const Hero = () => {
                   position="right"
                 />
               </a>
-              <a href="/lohit_CV.pdf" download>
+              <a href="/lohit_CV.pdf" target="_blank" rel="noopener noreferrer">
                 <MagicButton
                   title="Resume"
                   icon={<FaDownload />}
