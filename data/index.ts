@@ -154,6 +154,15 @@ export const projects = [
     link: "https://lohitkumar1914.github.io/project-1-Password-generator/",
     github: "https://github.com/lohitkumar1914/project-1-Password-generator",
   },
+  {
+    id: 6,
+    title: "AI Article Summarizer",
+    des: "A Chrome extension that summarizes articles using Google Gemini AI into brief, detailed, or bullet-point formats instantly.",
+    img: "/p5.png",
+    iconLists: ["/HTML.svg", "/CSS.svg", "/JS.svg", " /ai.svg"],
+    link: "https://github.com/lohitkumar1914/ai-article-summarizer.git",
+    github: "https://github.com/lohitkumar1914/ai-article-summarizer.git",
+  },
 ];
 
 export const workExperience = [
@@ -220,5 +229,5 @@ export const skillsData = [
   "MYSQL",
   "java",
   "Python",
-"DSA in java"
+  "DSA in java",
 ] as const;
